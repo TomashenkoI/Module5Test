@@ -12,7 +12,7 @@ public class MinAndMaxFromTheArray {
         maxFromTheArray(array);
     }
 
-    public static String minFromTheArray(int array[]) {
+    public static int minFromTheArray(int array[]) {
         int minimumOfArray = array[0];
 
         for (int a = 0; a < array.length - 1; a++) {
@@ -23,10 +23,10 @@ public class MinAndMaxFromTheArray {
         }
         System.out.println(minimumOfArray + " - Minimum of Array.");
 
-        return null;
+        return minimumOfArray;
     }
 
-    public static String maxFromTheArray(int array[]) {
+    public static int maxFromTheArray(int array[]) {
         int maximumOfArray = array[0];
 
         for (int a = 0; a < array.length - 1; a++) {
@@ -37,7 +37,7 @@ public class MinAndMaxFromTheArray {
             }
         }
         System.out.println(maximumOfArray + " - Maximum of Array.");
-        return null;
+        return maximumOfArray;
     }
 }
 

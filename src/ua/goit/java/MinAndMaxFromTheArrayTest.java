@@ -31,7 +31,7 @@ public class MinAndMaxFromTheArrayTest {
         }
         min = Collections.min(array1);
 
-        Assert.assertEquals(min, minimumOfArray);
+        Assert.assertEquals(min, MinAndMaxFromTheArray.minFromTheArray(array));
     }
 
     @Test
@@ -48,6 +48,6 @@ public class MinAndMaxFromTheArrayTest {
         }
         max = Collections.max(array1);
 
-        Assert.assertEquals(max, maximumOfArray);
+        Assert.assertEquals(max, MinAndMaxFromTheArray.maxFromTheArray(array));
     }
 }
